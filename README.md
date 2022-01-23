@@ -1,1 +1,1 @@
-# genshin-hp-calculator
+# Genshin Enemy HP Calculator
