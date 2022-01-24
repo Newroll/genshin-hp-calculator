@@ -1,82 +1,47 @@
 #include <iostream>
+#include <string>
 
-//doubles of enemy base hp ratio
-double cicin = 0.5;
-double slime = 0.8;
-double largeslime = 2;
-double whopperflower = 3;
-double hilichurl = 1;
-double hilichurlguard = 1;
-double hilichurlgrenadier = 1;
-double hilichurlshooter = 0.8;
-double hilichurlcryogrenadier = 0.8;
-double samachurl = 1;
-double unusualhilichurl = 1.6;
-double anemofatui = 3;
-double electrofatui = 4;
-double geofatui = 3;
-double pyrofatui = 3;
-double cryofatui = 4;
-double hydrofatui = 3;
-double thpotion = 1.6;
-double thscout = 1.2;
-double thmarksman = 1.2;
-double thcrusher = 2;
-double thgravedigger = 2;
-double thhandyman = 2;
-double thpuglilist = 2;
-double nobushi = 2;
-double kairagi = 4.8;
-double mitachurl = 3;
-double lawachurl = 9;
-double abyssmage = 2;
-double abyssherald = 8;
-double abysslector = 8;
-double ruinguard = 7;
-double ruinhunter = 6;
-double ruingrader = 9;
-double ruincruiser = 3;
-double ruindestroyer = 3;
-double ruindefender = 4.2;
-double ruinscout = 4.2;
-double fatuimage = 5;
-double fatuiagent = 5;
-double fatuimaiden = 6;
-double eyeofstorm = 5;
-double geovishap = 8;
-double geovishaphatching = 3;
-double hypostatus = 7;
-double hypostatusevent = 11;
-double regisvine = 7;
-double regisvineevent = 11;
-double oceanid = 10;
-double hmcrane = 0.8;
-double hmraptor = 0.8;
-double hmmallard = 1.6;
-double hmcrab = 1.6;
-double hmboar = 1.6;
-double hmferret = 1.4;
-double hmfrog = 3;
-double hmfinch = 3;
-double oceanidevent = 14;
-double hmcrabevent = 0.6;
-double hmboarevent = 3.4;
-double hmferretevent = 3.4;
-double primogeovishap = 30;
-double maguukenki = 20;
-double pma = 16;
-double andrius = 18;
-double davalin = 9;
-double onechilde = 6;
-double twochilde = 6;
-double threechilde = 10; 
-double azhdaha = 36;
-double georifthoundbaby = 2.5;
-double electrorifthoundbaby = 2.5;
-double georifthound = 7;
-double electrorifthound = 7;
 
-string enemyname;
+int main ()
+{
 
-std::cout << "What's the enemy?\n";
-std::cin >>
+	std::string enemyname;
+	double level;
+	double levelmodifierone;
+	double levelmodifiertwo;
+	double hp;
+
+	std::cout << "What's the level?\n";
+	std::cin >> level;
+
+	if (level == 69) {
+
+		levelmodifierone = 11949.945;
+		levelmodifiertwo = 14030.204;
+
+	}
+
+	else {
+
+		std::cout << "Please specify a valid level! (1 - 100)\n";
+
+	}
+
+	std::cout << "What's the enemy?\n";
+	std::cin >> enemyname;
+
+	if (enemyname == "azhdaha") {
+
+		hp = (36 * levelmodifierone);
+
+	}
+
+	else {
+
+		std::cout << "Please specify a valid enemy!\n";
+
+	}
+
+	std::cout << "The HP of " << enemyname << " is " << hp;
+
+}
