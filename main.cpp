@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-
+//data from https://bbs.nga.cn/read.php?tid=25223114
 
 int main()
 {
@@ -1348,6 +1348,34 @@ int main()
 			if (enemyname == "thundercravenrifthound") {
 
 				hp = (7 * levelmodifiertwo);
+				break;
+
+			}
+
+			if (enemyname == "specters") {
+
+				hp = (2 * levelmodifiertwo);
+				break;
+
+			}
+
+			if (enemyname == "raidenshogun") {
+
+				hp = (40 * levelmodifiertwo);
+				break;
+
+			}
+
+			if (enemyname == "onesignora") {
+
+				hp = (10 * levelmodifiertwo);
+				break;
+
+			}
+
+			if (enemyname == "twosignora") {
+
+				hp = (20 * levelmodifiertwo);
 				break;
 
 			}
