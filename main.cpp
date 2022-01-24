@@ -16,36 +16,43 @@ int main()
 
 		
 		//asks for level
-		std::cout << "What's the level?\n";
-		std::cin >> level;
+		while (true) {
+			std::cout << "What's the level?\n";
+			std::cin >> level;
 
-		if (level == 69) {
+			if (level == 69) {
 
-			levelmodifierone = 11949.945;
-			levelmodifiertwo = 14030.204;
+				levelmodifierone = 11949.945;
+				levelmodifiertwo = 14030.204;
+				break;
 
-		}
+			}
 
-		else {
+			else {
 
-			std::cout << "Please specify a valid level! (1 - 100)\n";
+				std::cout << "Please specify a valid level! (1 - 100)\n";
+
+			}
 		}
 
 
 		//asks for enemy
-		std::cout << "What's the enemy?\n";
-		std::cin >> enemyname;
+		while (true) {
+			std::cout << "What's the enemy?\n";
+			std::cin >> enemyname;
 
-		if (enemyname == "azhdaha") {
+			if (enemyname == "azhdaha") {
 
-			hp = (36 * levelmodifierone);
+				hp = (36 * levelmodifierone);
+				break;
 
-		}
+			}
 
-		else {
+			else {
 
-			std::cout << "Please specify a valid enemy!\n";
+				std::cout << "Please specify a valid enemy!\n";
 
+			}
 		}
 
 		std::cout << "The HP of " << enemyname << " is " << hp;
