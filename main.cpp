@@ -1396,7 +1396,8 @@ int main()
 		std::cout << "\n";
 		std::cout << "Is there an HP multiplier? (https://genshin-impact.fandom.com/wiki/Level_Scaling/Enemy#Special_HP_Multiplier)\nIf so state it.\n";
 		std::cin >> multiplier;
-		std::cout << (multiplier * hp);
+		std::cout << "\n";
+		std::cout << "The HP of " << enemyname << " at level " << level << " with a multiplier of " << multiplier << " is " << (hp * multiplier);
 		std::cout << "\n";
 		std::cout << "\n";
 		std::cout << "\n";
