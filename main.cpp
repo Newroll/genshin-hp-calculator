@@ -14,7 +14,7 @@ int main()
 		double hp;
 		double multiplier;
 
-		
+
 		//asks for level
 		while (true) {
 			std::cout << "What's the level?\n";
@@ -283,7 +283,7 @@ int main()
 				break;
 
 			}
-			
+
 			if (level == 34) {
 
 				levelmodifierone = 2020.002;
