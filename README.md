@@ -1,5 +1,4 @@
 # Genshin Enemy HP Calculator
-I would make this a Windows application but my lack of knowledge prevents me from doing so. It'll have to remain a console application for now until I can figure out how to code a Windows app.
 
 *Data from https://bbs.nga.cn/read.php?tid=25223114*
 
