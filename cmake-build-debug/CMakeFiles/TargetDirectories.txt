@@ -1,3 +1,0 @@
-C:/Users/robbi/Documents/GitHub/genshin-hp-calculator/cmake-build-debug/CMakeFiles/genshin_hp_calculator.dir
-C:/Users/robbi/Documents/GitHub/genshin-hp-calculator/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/robbi/Documents/GitHub/genshin-hp-calculator/cmake-build-debug/CMakeFiles/rebuild_cache.dir
